@@ -8,8 +8,9 @@
 ![Image](/ui/image.png)
 
 
-## Overview
-This page ...
+## Overview / Purpose
+- (User can) look the list of users.
+- (User can) ...
 
 
 ## UI objects
@@ -17,28 +18,43 @@ This page ...
 - HamburgerMenu
 - Avatar
 
+### MainArea
+- UserList
+  - Avatar
+  - UserName
+  - Email
+  - RoleType
+  - MenuButton
+
+...
 
 ## Events
 ### Non user event
 #### OnInit
-- [ ] request FooBar(foo=abc, bar=42)
-  - [ ] (OK) 
+- [ ] repuest `GetMe`
+  - [ ] (OK) show `HeaderArea/Avatar`
+  - [ ] (Err) show error dialog. break
+- [ ] request `GetUsers`(foo=abc, bar=42)
+  - [ ] (OK) show result on `UserList`
   - [ ] (Err) show error dialog. break
 
 ### HeaderArea
 - HamburgerMenu
   - click
-    1. [ ] show SideBar
+    - [ ] show `SideMenu`
 - Avatar
   - click
-    1. [ ] show AccountPopup
+    - [ ] show `AccountPopup`
   - hover
-    1. [ ] show user name
+    - [ ] show user name
+
+...
 
 
 ## Dependencies
 ### API
-- [FooBar](link/to/foo-bar)
+- [GetMe](link/to/get-me/spec)
+- [GetUsers](link/to/get-users/spec)
 
 ### Permission
 - Camera
