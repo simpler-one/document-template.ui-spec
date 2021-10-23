@@ -8,9 +8,9 @@
 ![Image](/ui/image.png)
 
 
-## Overview / Purpose
-- (User can) look the list of users.
-- (User can) ...
+## User can (Overview)
+- look the list of users.
+- ...
 
 
 ## UI objects
@@ -27,6 +27,7 @@
   - MenuButton
 
 ...
+
 
 ## Events
 ### Non user event
