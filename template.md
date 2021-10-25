@@ -5,13 +5,11 @@
 
 ## User can (Overview)
 - do something
-- ...
 
 
 ## URL to this page
 - [ ] `/url/to/this/page`
   - [ ] param name: param description
-  - [ ] ...
 
 
 ## UI objects
@@ -27,8 +25,9 @@
 ##### OnInit
 - assain from URL params
   - [ ] destination: url param (source)
-- [ ] repuest `GetMe`
-  - [ ] params: none
+- [ ] repuest `API name`
+  - [ ] params
+    - [ ] param name(destination): source
   - [ ] (ConditionA) action
   - (ConditionB)
     - [ ] action
