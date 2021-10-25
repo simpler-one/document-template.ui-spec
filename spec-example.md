@@ -45,7 +45,7 @@
 - assain from URL params
   - [ ] FilterForm.Status: status
   - [ ] FilterForm.Name: name
-  - [ ] ... 
+  - [ ] ...
 - [ ] repuest `GetMe`
   - [ ] params: none
   - [ ] (OK) show `HeaderArea.Avatar`
@@ -65,6 +65,8 @@
   - (Err)
     - [ ] show error dialog
     - [ ] break
+- etc expectation
+  - [ ] UserList sorting: UserName, Ascending
 
 ### Header
 #### HamburgerMenu
@@ -79,8 +81,6 @@
 - [ ] show user name
 
 ### FilterForm
-  
-
 ...
 
 
