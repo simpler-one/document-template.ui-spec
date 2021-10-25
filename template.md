@@ -31,6 +31,8 @@
   - [ ] (ConditionA) action
   - (ConditionB)
     - [ ] action
+- etc expectation
+  - [ ] Property: value 
 
 ### Organism
 #### Atom or Molecule
