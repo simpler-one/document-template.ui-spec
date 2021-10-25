@@ -1,12 +1,4 @@
 # PageName
-
-## URL to this page
-- [ ] `/ui/friends?`
-  - [ ] status
-  - [ ] name
-  - [ ] ...
-
-
 ## Image
 ![Image](/ui/friends/image.png)
 
@@ -14,6 +6,13 @@
 ## User can (Overview)
 - look the list of friend.
 - ...
+
+
+## URL to this page
+- [ ] `/ui/friends?`
+  - [ ] status: friend status to filter
+  - [ ] name: friend name to filter
+  - [ ] ...
 
 
 ## UI objects
@@ -35,6 +34,8 @@
   - [ ] Avatar: Image
   - [ ] UserName: Label
   - [ ] Email: Link
+  - [ ] Birthday: Label
+    - Format: "MM-DD"
   - [ ] MenuButton: Button
 
 ...
