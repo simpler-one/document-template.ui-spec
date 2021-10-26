@@ -4,7 +4,11 @@
 
 
 ## User can (Overview)
-- look the list of friend.
+- look the list of friend
+  - filter (optional description)
+  - sort (optional description)
+- jump to friend detail page
+- call a friend
 - ...
 
 
@@ -17,7 +21,7 @@
 
 ## UI objects
 ### Header
-- [ ] HamburgerMenu: xxx
+- [ ] HamburgerMenu: XxxMenu
 - [ ] Avatar: Image
 
 ### FilterForm
@@ -25,23 +29,35 @@
   - [ ] Online
   - [ ] Offline
 - [ ] Name: Textbox
-  - [ ] MaxLength: 20
+  - [ ] maxLength: 20
 - [ ] ...
 - [ ] ExecuteButton: Button
 
 ### FriendList
+#### Header
+- [ ] Check: Label
+  - [ ] sortable: false
+- [ ] Avatar: Label
+  - [ ] sortable: false
+- [ ] Buttons: Label
+  - [ ] sortable: false
+- [ ] *(same as body): Label
+#### Body
+- [ ] Check: Checkbox
 - [ ] StatusIcon: Icon
 - [ ] Avatar: Image
 - [ ] UserName: Label
-- [ ] Email: Link
 - [ ] Birthday: Label
-  - Format: "MM-DD"
+  - format: "MM-DD"
+- [ ] ...
+- [ ] CallButton: Icon
+  - enabled: status = Online
 - [ ] MenuButton: Button
 
 
 ## Events
 ### Non user event
-##### OnInit
+###### OnInit
 - assain from URL params
   - [ ] FilterForm.Status: status
   - [ ] FilterForm.Name: name
@@ -69,15 +85,15 @@
   - [ ] UserList sorting: UserName, Ascending
 
 ### Header
-#### HamburgerMenu
-##### click
+##### HamburgerMenu
+###### click
 - [ ] show `SideMenu`
 
-#### Avatar
-##### click
+##### Avatar
+###### click
 - [ ] show `AccountPopup`
 
-##### hover
+###### hover
 - [ ] show user name
 
 ### FilterForm
@@ -93,4 +109,4 @@
 - Camera
 
 ### Page
-- HogePage
+- FriendDetailPage
