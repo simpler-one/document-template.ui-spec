@@ -15,9 +15,8 @@
 ## UI objects
 ### Organism
 - [ ] Atom or Molecule: Type
-  - [ ] Property(permanent): value
-  - [ ] ex. Format: ...
-  - [ ] ex. Restriction: value or condition
+  - [ ] Property(permanent): value or func
+  - [ ] ex. Enabled, Format, Restriction: ...
 
 
 ## Events
@@ -48,3 +47,11 @@
 
 ### Page
 - PageName
+
+
+----
+----
+
+# Note
+- Each param or UI object should have consistent name throughout spec documents
+- Developer can use different name from spec document in program code
