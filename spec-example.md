@@ -48,7 +48,7 @@
 - [ ] Avatar: Image
 - [ ] UserName: Label
 - [ ] Birthday: Label
-  - format: "MM-DD"
+  - [ ] format: "MM-DD"
 - [ ] ...
 - [ ] CallButton: Icon
   - enabled: status = Online
@@ -57,7 +57,16 @@
 
 ## Events
 ### Non user event
-###### OnInit
+##### OnInit
+###### Expectation
+- FriendList
+  - Header
+    - [ ] Sorting: name, asc
+  - Body
+    - [ ] ...
+  - [ ] Page: 1
+
+###### Procedure
 - assain from URL params
   - [ ] FilterForm.Status: status
   - [ ] FilterForm.Name: name
@@ -85,19 +94,49 @@
   - [ ] UserList sorting: UserName, Ascending
 
 ### Header
-##### HamburgerMenu
-###### click
+#### HamburgerMenu
+##### click
+###### Expectation
+- [ ] SideMenu: visible
+
+###### Procedure
 - [ ] show `SideMenu`
 
-##### Avatar
-###### click
+#### Avatar
+##### click
+###### Expectation
+- [ ] ActionPopup: visible
+
+###### Procedure
 - [ ] show `AccountPopup`
 
-###### hover
+##### hover
+###### Expectation
+- [ ] ToolTip: user name
+
+###### Procedure
 - [ ] show user name
 
 ### FilterForm
 ...
+
+### FriendList.Header
+#### (each column)
+##### click
+###### Expectation
+- sort ...
+
+###### Procedure
+- ...
+
+### FriendList.Body
+#### CallButton
+##### click
+###### Expectation
+- CallingPopup: visible
+
+###### Procedure
+- ...
 
 
 ## Dependencies
