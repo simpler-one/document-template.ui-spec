@@ -13,8 +13,8 @@
 
 
 ## UI objects
-### Organism
-- [ ] Atom or Molecule: Type
+### {Organism}
+- [ ] {Atom or Molecule}: Type
   - [ ] Property(permanent): value or func
   - [ ] ex. Enabled, Format, Restriction: ...
 
@@ -31,11 +31,15 @@
   - (ConditionB)
     - [ ] action
 - etc expectation
-  - [ ] Property: value 
+  - [ ] {Property}: value 
 
-### Organism
-#### Atom or Molecule
-##### event
+### {Organism}
+#### {Atom or Molecule}
+##### {event}
+###### Expectation
+- [ ] expectation
+
+###### Procedure
 - [ ] action
 
 ## Dependencies
