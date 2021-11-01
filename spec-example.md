@@ -1,6 +1,6 @@
 # FriendList
 ## Image
-![Image](/ui/friends/image.png)
+![Image](./FriendList.png)
 
 
 ## User can (Overview)
