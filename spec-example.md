@@ -21,7 +21,7 @@
 
 ## UI objects
 ### Header
-- [ ] HamburgerMenu: XxxMenu
+- [ ] HamburgerMenu: Button
 - [ ] Avatar: Image
 
 ### FilterForm
@@ -31,7 +31,7 @@
 - [ ] Name: Textbox
   - [ ] maxLength: 20
 - [ ] ...
-- [ ] ExecuteButton: Button
+- [ ] ApplyButton: Button
 
 ### FriendList
 #### Header
@@ -63,6 +63,8 @@
   - Header
     - [ ] Sorting: name, asc
   - Body
+    - [ ] ...
+    - [ ] CallButton: enabled if online
     - [ ] ...
   - [ ] Page: 1
 
