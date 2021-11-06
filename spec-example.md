@@ -26,7 +26,9 @@
 
 ### FilterForm
 - [ ] Status: Pulldown
-  - [ ] Online
+  - [ ] Available
+  - [ ] Busy
+  - [ ] Away
   - [ ] Offline
 - [ ] Name: Textbox
   - [ ] maxLength: 20
@@ -51,7 +53,7 @@
   - [ ] format: "MM-DD"
 - [ ] ...
 - [ ] CallButton: Icon
-  - enabled: status = Online
+  - enabled: status = Available
 - [ ] MenuButton: Button
 
 
